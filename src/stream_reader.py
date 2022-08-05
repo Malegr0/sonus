@@ -70,4 +70,4 @@ class StreamReader:
         device_info = self.pa.get_device_info_by_index(device)
         print('\nDevice %s:' % (str(device)))
         for key, value in sorted(device_info.items()):
-            print("%s: %s" %(key, value))
+            print("%s: %s" % (key, value))
